@@ -1,0 +1,25 @@
+<template name="view2">
+
+  <h2>Temps jugadors</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Time</th>
+    </tr>
+    {{#each contact}}    
+      <tr>
+        <td>{{name}}</td>
+        <td>{{surname}}</td>
+        <td>{{points}}</td>
+      </tr>
+    {{/each}}  
+  </table>  
+  <br/>
+  <p id="Volver2">
+       <input id="vuelve2js" class="btn btn-success" type="button" value="Volver" />
+  </p>
+  <!--Name: <input id="name" type="text" /><br/>
+  <input id="button" class="btn btn-primary" type="button" value="Show High Score" />-->
+
+</template>

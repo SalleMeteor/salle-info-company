@@ -1,0 +1,139 @@
+/* CSS declarations go here */
+
+h1 {
+  color: green; 
+  text-align:center;
+}
+
+h2 {
+  color: green; 
+  text-align:center;
+
+}
+
+h4 {
+  text-align:center;
+}
+
+#TextoInstrucciones{
+   text-align:center;
+}
+#TextoRellenar{
+   text-align:center;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 100px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+}
+
+#BotonJugador1{
+   position:absolute;
+   left:570px;
+   top:300px;
+}
+
+#BotonInstrucciones{
+   position:absolute;
+   left:540px;
+   top:130px;
+}
+
+#BotonJoc{
+   position:absolute;
+   left:540px;
+   top:170px;
+
+}
+#Volver5{
+   position:absolute;
+   left:570px;
+   top:600px;
+}
+#Volver4{
+   position:absolute;
+   left:570px;
+   top:230px;
+}
+#Volver3{
+   position:absolute;
+   left:570px;
+   top:600px;
+}
+
+#Volver2{
+   position:absolute;
+   left:570px;
+   top:200px;
+}
+
+#guardar{
+   position:absolute;
+   left:570px;
+   top:280px;
+}
+
+#cronometro{
+	padding-left: 20px;
+  padding-top: 110px;
+  font-size:40px;
+  color:#0a0;
+  }
+
+#time{
+  padding-left: 515px;
+  padding-top: 100px;
+  font-size:40px;
+  color:#0a0;
+  }
+
+
+  #cont{
+  padding-left: 20px;
+  padding-top: 110px;
+  font-size:40px;
+  color:#0a0;
+  }
+
+ #clicks{
+  padding-left: 497px;
+  padding-top: 100px;
+  font-size:40px;
+  color:#0a0;
+  }
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+/*body {
+    background: #eee;
+    color: #666666;
+    padding-left: 30px;
+    padding-top: 30px;
+}*/
+
+.play1{
+	background-color: red;
+	font-style: green;
+	font-style: comic;
+	position: relative;
+	left: 400px;
+	top: 400px;
+}
+
+.start{
+	background-color: white;
+	font-style: red;
+	font-style: comic;
+	position: relative;
+	left: 400px;
+	top: 200px;
+}
+
