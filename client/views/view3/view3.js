@@ -1,9 +1,9 @@
 cont=0;
-cont2=0;
+i2=0;
 
-var cronometro=0;
+cronometro=0;
 var i=0;
-
+reloj=0;
 
 
 Template.view3.helpers({
@@ -70,6 +70,7 @@ window.addEventListener('load', inicio, false);
   function procesar() {
     var nro=parseInt(document.getElementById('cronometro').innerHTML);
     nro++;
+    i2=nro;
     document.getElementById('cronometro').innerHTML=nro;
   }
   function startCrono(){
@@ -97,7 +98,7 @@ Template.view3.events({
            Alerts.removeSeen();
         }
         else{
-           cont2=cont;
+           //i2=reloj;
            cont=0;
            Session.set("currentPage", "view5");
 

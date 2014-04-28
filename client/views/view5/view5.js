@@ -24,7 +24,7 @@ Template.view5.events({
     var doc = {
       name: $("#name").val(),
       surname: $("#surname").val(),
-      points: cont2
+      points: i2
     
     };
     Contacts.insert(doc);
