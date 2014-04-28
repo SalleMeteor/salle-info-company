@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "iron-router": {},
+    "nprogress": {},
+    "mongo-counter": {},
+    "bootstrap-alerts": {},
+    "spin": {}
+  }
+}

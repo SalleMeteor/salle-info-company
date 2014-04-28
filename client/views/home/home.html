@@ -1,0 +1,39 @@
+<template name="home">
+
+  <div class="alert alert-success"> <h1>METEOR CLICKS</h1>  <h5>   {{> loginButtons}} </h5></div>
+  
+
+  
+  {{#if currentUser}}
+  
+    {{#if page "view1"}}
+      {{> view1 }}
+    {{/if}}
+    {{#if page "view2"}}
+      {{> view2 }}
+    {{/if}}
+    {{#if page "view3"}}
+      {{> view3 }}
+    {{/if}}
+
+    {{#if page "view4"}}
+      {{> view4 }}
+    {{/if}}
+    {{#if page "view5"}}
+      {{> view5 }}
+    {{/if}}
+  
+  
+    <!--<input id="contacts" class="btn btn-primary" type="button" value="Show High Score" />-->
+
+
+  
+  
+
+  
+
+  {{else}}
+    <h3>You need to login to continue</h3>  
+  {{/if}}
+  
+</template>

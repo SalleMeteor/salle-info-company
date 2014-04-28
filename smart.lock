@@ -1,0 +1,44 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "nprogress": {},
+      "mongo-counter": {},
+      "bootstrap-alerts": {},
+      "spin": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "nprogress": {
+        "git": "https://github.com/zhouzhuojie/meteor-nprogress.git",
+        "tag": "v0.0.4",
+        "commit": "8333206b751a24fac1fbd1b03fa37621bcefe50c"
+      },
+      "mongo-counter": {
+        "git": "https://github.com/awwx/meteor-mongo-counter.git",
+        "tag": "v1.1.0",
+        "commit": "9a0710543cec7c192e38d5acc54cf3b0a9fbcb20"
+      },
+      "bootstrap-alerts": {
+        "git": "https://github.com/asktomsk/bootstrap-alerts.git",
+        "tag": "v0.0.5",
+        "commit": "6ddd650208a77677ab86af9dfccc3a69b1ba8d32"
+      },
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.2",
+        "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      }
+    }
+  }
+}
