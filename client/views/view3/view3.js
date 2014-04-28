@@ -70,7 +70,10 @@ window.addEventListener('load', inicio, false);
   function procesar() {
     var nro=parseInt(document.getElementById('cronometro').innerHTML);
     nro++;
+<<<<<<< HEAD
     i2=nro;
+=======
+>>>>>>> 1e8ec49c68801d459a999172ca5241a42a140eed
     document.getElementById('cronometro').innerHTML=nro;
   }
   function startCrono(){
@@ -98,7 +101,11 @@ Template.view3.events({
            Alerts.removeSeen();
         }
         else{
+<<<<<<< HEAD
            //i2=reloj;
+=======
+           i2=reloj;
+>>>>>>> 1e8ec49c68801d459a999172ca5241a42a140eed
            cont=0;
            Session.set("currentPage", "view5");
 
