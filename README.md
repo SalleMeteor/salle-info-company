@@ -15,10 +15,10 @@ Alejandro Herrera - gs22715 - alejandroHerrera
 
 Lista de paquetes
 ================================================
-Blaze-Layout: mtr add Blaze-Layout
-Bootstrap-alerts: mtr add Bootstrap-alerts
-Iron-router: mtr add Iron-router
-Nprogress: mtr Nprogress
+- Blaze-Layout: mtr add Blaze-Layout
+- Bootstrap-alerts: mtr add Bootstrap-alerts
+- Iron-router: mtr add Iron-router
+- Nprogress: mtr Nprogress
 
 Deploy URL
 ==================
